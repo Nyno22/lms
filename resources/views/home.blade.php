@@ -4,285 +4,6 @@
 
 @section('content')
 
-<div class="app-sidenav app-sidenav-1">
-    <div class="sidenav-menu">
-        <div class="sidenav-head">
-            <img src="{{ asset('userassets/images/sidenav.jpg') }}" alt="sidenav banner">
-            <button class="button button-close-sidenav"></button>
-        </div>
-        <div class="sidenav-body">
-            <div class="sidenav-body-inner">
-                <div class="sidenav-links">
-                    <a href="page-login.html" class="button button-md button-block button-line-primary">
-                        <span class="text">Sign In</span>
-                    </a>
-                    <a href="page-register.html" class="button button-md button-block button-primary">
-                        <span class="text">Sign Up</span>
-                    </a>
-                </div>
-                <ul>
-                    <li>
-                        <a href="home.html">
-                            <span class="text">Home</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                    </li>
-                    <li class="has-menu">
-                        <a href="#">
-                            <span class="text">All Pages</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                        <div class="mega-menu">
-                            <p class="title">Quick Access</p>
-                            <ul class="sidenav-menu-ul">
-                                <li>
-                                    <a href="page-blog.html">
-                                        <span class="text">Blog/News</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-single-post.html">
-                                        <span class="text">Single Post</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-cooperation.html">
-                                        <span class="text">Cooperation</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-start.html">
-                                        <span class="text">Getting Started!</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p class="title">Quick Access</p>
-                            <ul class="sidenav-menu-ul">
-                                <li>
-                                    <a href="page-teacher.html">
-                                        <span class="text">Teacher</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-teachers.html">
-                                        <span class="text">List of Teachers</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-course.html">
-                                        <span class="text">Course Details</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-courses.html">
-                                        <span class="text">List of Courses</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p class="title">Dashboard</p>
-                            <ul class="sidenav-menu-ul">
-                                <li>
-                                    <a href="teacher/dashboard.html">
-                                        <span class="text">Dashboard</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="teacher/dashboard-profile.html">
-                                        <span class="text">Profile</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="teacher/dashboard-skills.html">
-                                        <span class="text">Edit Skills</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="teacher/dashboard-classrooms.html">
-                                        <span class="text">Classrooms</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p class="title">Communication</p>
-                            <ul class="sidenav-menu-ul">
-                                <li>
-                                    <a href="page-about.html">
-                                        <span class="text">About Us</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-contact.html">
-                                        <span class="text">Contact Us</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-faq.html">
-                                        <span class="text">FAQ</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-policy.html">
-                                        <span class="text">Policy</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p class="title">Other Pages</p>
-                            <ul class="sidenav-menu-ul">
-                                <li>
-                                    <a href="page-login.html">
-                                        <span class="text">Sign-In</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-register.html">
-                                        <span class="text">Sign-Up</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page-departements.html">
-                                        <span class="text">Departements</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="has-menu">
-                        <a href="#">
-                            <span class="text">Languages</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                        <div class="mega-menu">
-                            <ul>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/uk.svg') }}" alt="alt" />
-                                            <h3>English</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/germany.svg') }}" alt="alt" />
-                                            <h3>German</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/france.svg') }}" alt="alt" />
-                                            <h3>French</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/italy.svg') }}" alt="alt" />
-                                            <h3>Italian</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/china.svg') }}" alt="alt" />
-                                            <h3>Chinese</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/japan.svg') }}" alt="alt" />
-                                            <h3>Japanese</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/south-korea.svg') }}" alt="alt" />
-                                            <h3>Korean</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/russia.svg') }}" alt="alt" />
-                                            <h3>Russian</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/arabic.svg') }}" alt="alt" />
-                                            <h3>Arabic</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/turkey.svg') }}" alt="alt" />
-                                            <h3>Turkish</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/iran.svg') }}" alt="alt" />
-                                            <h3>Persian</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="el-flag">
-                                    <div class="inner">
-                                        <a href="page-departements.html">
-                                            <img src="{{ asset('userassets/images/flags/spain.svg') }}" alt="alt" />
-                                            <h3>Spanish</h3>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="page-teachers.html">
-                            <span class="text">Teachers</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="page-courses.html">
-                            <span class="text">Courses</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="page-cooperation.html">
-                            <span class="text">Join Now.</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="page-start.html">
-                            <span class="text">Let's get started</span>
-                            <span class="icon fa fa-angle-right"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <span class="sidenav-close"></span>
-</div>
-<!--/-->
-
 <!--Wrapper-->
 <div class="app-wrapper">
     <div class="page-home">
@@ -323,7 +44,7 @@
                 <div class="row row-xs">
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','English') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/uk.svg') }}" alt="alt" />
@@ -337,7 +58,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Spanish') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/spain.svg') }}" alt="alt" />
@@ -351,7 +72,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','German') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/germany.svg') }}" alt="alt" />
@@ -365,7 +86,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Italian') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/italy.svg') }}" alt="alt" />
@@ -379,7 +100,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','French') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/france.svg') }}" alt="alt" />
@@ -393,7 +114,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Portuguese') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/portugal.svg') }}" alt="alt" />
@@ -407,7 +128,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Russian') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/russia.svg') }}" alt="alt" />
@@ -421,7 +142,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Mandarin') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/china.svg') }}" alt="alt" />
@@ -435,7 +156,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Japanese') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/japan.svg') }}" alt="alt" />
@@ -449,7 +170,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Persian') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/iran.svg') }}" alt="alt" />
@@ -463,7 +184,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Hindi') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/india.svg') }}" alt="alt" />
@@ -477,7 +198,7 @@
                     <!--/-->
                     <!--Col-->
                     <div class="col-6 col-sm-4 col-md-4 col-lg-2">
-                        <a href="page-departements.html">
+                        <a href="{{ route('courses','Turkish') }}">
                             <div class="item">
                                 <div class="inner">
                                     <img src="{{ asset('userassets/images/flags/turkey.svg') }}" alt="alt" />
@@ -721,16 +442,6 @@
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                         </div>
-                    </div>
-                    <div class="el-read-more div-center text-center">
-                        <a href="page-teachers.html" class="el-popover">
-                            <p class="button button-circle-lg button-circle button-primary">
-                                <span class="fa fa-refresh"></span>
-                            </p>
-                            <p class="el-popover-title">
-                                <span>More Teachers?</span>
-                            </p>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -990,138 +701,6 @@
             </div>
         </section>
         <!--/-->
-        
-        <!--Courses-->
-        <section class="section section-courses">
-            <figure class="section-shape shape-2">
-                <img class="img-fluid" src="{{ asset('userassets/images/shapes/2.svg') }}" alt="Image Description" />
-            </figure>
-            <figure class="section-shape shape-3">
-                <img src="{{ asset('userassets/images/shapes/3.svg') }}" alt="Image Description" />
-            </figure>
-            <div class="display-spacing">
-                <div class="container">
-                    <header class="el-heading center">
-                        <h2>What we Learn on <span class="text-primary">Eduline</span></h2>
-                        <p>We provide the best service that comes with the best results.</p>
-                        <div class="divider divider-line"></div>
-                    </header>
-                    <div class="cards">
-                        <!--Card-->
-                        <div class="el-card card-course">
-                            <div class="item d-flex align-items-center">
-                                <div class="card-image">
-                                    <img src="{{ asset('userassets/images/courses/1.svg') }}" alt="alt" />
-                                </div>
-                                <div class="card-title">
-                                    <h3>
-                                        <a href="page-course.html">
-                                            <span>Standard English</span>
-                                            <span class="subtitle">Lessons:<span class="text-color">600</span></span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                                <div class="card-links">
-                                    <a href="page-course.html" class="button button-md button-line-primary">
-                                        <span class="text">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/-->
-                        <!--Card-->
-                        <div class="el-card card-course">
-                            <div class="item d-flex align-items-center">
-                                <div class="card-image">
-                                    <img src="{{ asset('userassets/images/courses/1.svg') }}" alt="alt" />
-                                </div>
-                                <div class="card-title">
-                                    <h3>
-                                        <a href="page-course.html">
-                                            <span>Travelers Course</span>
-                                            <span class="subtitle">Lessons:<span class="text-color">600</span></span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                                <div class="card-links">
-                                    <a href="page-course.html" class="button button-md button-line-primary">
-                                        <span class="text">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/-->
-                        <!--Card-->
-                        <div class="el-card card-course">
-                            <div class="item d-flex align-items-center">
-                                <div class="card-image">
-                                    <img src="{{ asset('userassets/images/courses/1.svg') }}" alt="alt" />
-                                </div>
-                                <div class="card-title">
-                                    <h3>
-                                        <a href="page-course.html">
-                                            <span>Portuguese Course</span>
-                                            <span class="subtitle">Lessons:<span class="text-color">600</span></span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                                <div class="card-links">
-                                    <a href="page-course.html" class="button button-md button-primary">
-                                        <span class="text">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/-->
-                        <!--Card-->
-                        <div class="el-card card-course">
-                            <div class="item d-flex align-items-center">
-                                <div class="card-image">
-                                    <img src="{{ asset('userassets/images/courses/4.svg') }}" alt="alt" />
-                                </div>
-                                <div class="card-title">
-                                    <h3>
-                                        <a href="page-course.html">
-                                            <span>Standard Spanish</span>
-                                            <span class="subtitle">Lessons:<span class="text-color">600</span></span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                                <div class="card-links">
-                                    <a href="page-course.html" class="button button-md button-secondary">
-                                        <span class="text">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/-->
-                    </div>
-                    <div class="el-read-more div-center text-center">
-                        <a href="page-courses.html" class="el-popover">
-                            <p class="button button-circle-lg button-circle button-primary">
-                                <span class="fa fa-refresh"></span>
-                            </p>
-                            <p class="el-popover-title">
-                                <span>More Courses?</span>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--/-->    
     </div>
 
 

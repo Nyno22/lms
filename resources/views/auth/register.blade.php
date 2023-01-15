@@ -51,8 +51,8 @@
                 <x-input-label for="role" :value="__('Teacher or Student')" />
                 <select name="role" id="role" class="block mt-1 w-full" required>
                     <option value="">Select Role</option>
-                    <option value="1">Teacher</option>
-                    <option value="2">Student</option>
+                    <option value="1">Sign Up as a Teacher</option>
+                    <option value="2">Sign Up as a Student</option>
                 </select>
             </div>
 
